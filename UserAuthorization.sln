@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthorization", "UserAuthorization\UserAuthorization.csproj", "{FA714D8F-C686-45F8-898E-89C5EF38FA55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA714D8F-C686-45F8-898E-89C5EF38FA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA714D8F-C686-45F8-898E-89C5EF38FA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA714D8F-C686-45F8-898E-89C5EF38FA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA714D8F-C686-45F8-898E-89C5EF38FA55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A172C371-4850-431E-B728-6EA39BC18472}
+	EndGlobalSection
+EndGlobal
