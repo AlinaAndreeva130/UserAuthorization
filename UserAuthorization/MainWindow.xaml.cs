@@ -20,12 +20,31 @@ namespace UserAuthorization
     /// </summary>
     public partial class MainWindow : Window
     {
+        private UserAuthorizationProcessor UserAuthorization = new UserAuthorizationProcessor();
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (UserAuthorization.AuthorizeUser(Login.Text.Trim(), Password.Text.Trim()))
+            {
+                MessageBox.Show("Вход выполнен успешно!");
+            }
+            else
+            {
+                MessageBox.Show("Некорректный логин или пароль");
+            }
+        }
+
+        private void login_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
